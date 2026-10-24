@@ -1,0 +1,25 @@
+{
+  "name": "ai-face-attendance-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-Stack AI Face Attendance Management System for College",
+  "scripts": {
+    "start": "npm run start --prefix backend",
+    "dev": "npm run dev --prefix backend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "check-db": "node backend/scripts/inspect-db.js"
+  },
+  "keywords": [
+    "face-recognition",
+    "attendance",
+    "react",
+    "nodejs",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
